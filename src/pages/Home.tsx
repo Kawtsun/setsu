@@ -4,13 +4,15 @@ import Navbar from "../components/Navbar";
 function Home() {
     return (
         <>
-        <header>
-            <Navbar />
-        </header>
+            <div className="flex flex-col">
+                <header>
+                    <Navbar />
+                </header>
 
-        <main>
-            <Hero />
-        </main>
+                <main className="flex-1">
+                    <Hero />
+                </main>
+            </div>
         </>
     );
 }
