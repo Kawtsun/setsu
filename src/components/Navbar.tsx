@@ -3,15 +3,17 @@ import { Link } from "react-router";
 function Navbar() {
     return (
         <nav className="flex justify-between items-center py-3 px-20 bg-red-700 text-white">
-            <h1 className="font-Inter font-semibold text-4xl uppercase tracking-wide">Setsu</h1>
+            <h1 className="font-Inter font-semibold text-4xl tracking-wide py-1 px-3 rounded-md hover:text-slate-300 ease-in-out duration-300">
+                <Link to="/">Setsu</Link>
+            </h1>
             <ul className="flex list-none">
-                <li className="mr-6 text-lg font-medium">
+                <li className="mr-6 text-lg font-medium py-1 px-3 rounded-md hover:text-slate-300 ease-in-out duration-300">
                     <Link to="/">Home</Link>
                 </li>
-                <li className="mr-6 text-lg font-medium">
+                <li className="mr-6 text-lg font-medium py-1 px-3 rounded-md hover:text-slate-300 ease-in-out duration-300">
                     <Link to="/about">About</Link>
                 </li>
-                <li className="mr-6 text-lg font-medium">
+                <li className="mr-6 text-lg font-medium py-1 px-3 rounded-md hover:text-slate-300 ease-in-out duration-300">
                     <Link to="/seiyuu">Seiyuu</Link>
                 </li>
             </ul>

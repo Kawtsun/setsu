@@ -1,6 +1,16 @@
+import Navbar from "../components/Navbar";
+
 function About() {
     return (
-        <h1>About Page</h1>
+        <>
+        <header>
+            <Navbar />
+        </header>
+
+        <main>
+            <h1>About Page</h1>
+        </main>
+        </>
     );
 }
 

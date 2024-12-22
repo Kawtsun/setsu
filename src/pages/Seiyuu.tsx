@@ -1,6 +1,16 @@
+import Navbar from "../components/Navbar";
+
 function Seiyuu() {
     return (
-        <h1>Seiyuu</h1>
+        <>
+        <header>
+            <Navbar />
+        </header>
+
+        <main>
+            <h1>Seiyuu Page</h1>
+        </main>
+        </>
     )
 }
 
