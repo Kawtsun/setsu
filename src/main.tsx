@@ -4,6 +4,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Home from './pages/Home';
 import About from './pages/About';
+import Seiyuu from './pages/Seiyuu';
 
 
 const router = createBrowserRouter([
@@ -15,6 +16,11 @@ const router = createBrowserRouter([
   {
     path: `/about`,
     element: <About />
+  },
+
+  {
+    path: `/seiyuu`,
+    element: <Seiyuu />
   }
 
 ]);
