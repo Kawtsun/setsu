@@ -11,7 +11,7 @@ function Seiyuu() {
             <h1>Seiyuu Page</h1>
         </main>
         </>
-    )
+    );
 }
 
 export default Seiyuu;

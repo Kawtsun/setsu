@@ -1,3 +1,4 @@
+import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
 function Home() {
@@ -8,7 +9,7 @@ function Home() {
         </header>
 
         <main>
-            <h1>Home Page</h1>
+            <Hero />
         </main>
         </>
     );
