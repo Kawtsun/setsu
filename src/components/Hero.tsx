@@ -3,7 +3,6 @@ import setsu1 from "../assets/setsu.png";
 import setsu2 from "../assets/setsu2.png";
 import setsu3 from "../assets/setsu3.png";
 import setsu4 from "../assets/setsu4.png";
-import bg from "../assets/setsubg.png";
 import bg2 from "../assets/setsubg3.png";
 
 
