@@ -17,9 +17,12 @@ function Hero() {
             alt="bg" 
             />
             {/*hero intro*/}
-            <div className="relative ml-2 w-max py-10 px-14 bg-slate-300 rounded-lg">
+            <div className="relative ml-2 w-max py-10 px-14 bg-white shadow-md rounded-lg">
                 <h1 className="font-bold text-5xl mb-3">Setsuna Yuki</h1>
-                <h2 className="text-lg">Member of Nijigasaki High Scool Idol Club <span className="italic">(Former Student Council President)</span></h2>
+                <h2 className="text-xl">Member of Nijigasaki High Scool Idol Club <span className="italic">(Former Student Council President)</span></h2>
+                <p className="mt-2 text-lg max-w-screen-md text-opacity-80 text-black">
+                    A school idol who gives powerful, fiery performances and always has a smile on her face. Setsuna is so busy with her school idol activities that there are even rumors that no one has ever actually seen her at school.
+                </p>
                 {/*images*/}
                 <div className="flex justify-evenly gap-10">
                     <img className="w-64 rounded-full mt-5 transition-transform duration-300 ease-in-out hover:scale-110"
@@ -40,13 +43,10 @@ function Hero() {
                     />
                 </div>
                 {/*Explore*/}
-                <div className="mx-auto w-max my-10 py-10 px-20 text-center space-y-5 bg-slate-50 rounded-lg text-lg">
-                    <h3>Learn more about this idol</h3>
-                    <div className="py-2 px-5 border w-max mx-auto rounded-md text-white font-medium bg-blue-700 hover:bg-blue-600 ease-in-out duration-300">
-                        <Link to="/about">
-                            Explore
-                        </Link>
-                    </div>
+                <div className="mt-10 py-2 px-5 border w-max mx-auto rounded-md text-white font-medium bg-blue-700 hover:bg-blue-600 ease-in-out duration-300">
+                    <Link to="/about">
+                        Explore
+                    </Link>
                 </div>
             </div>
         </div>
