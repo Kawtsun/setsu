@@ -4,6 +4,7 @@ import setsu2 from "../assets/setsu2.png";
 import setsu3 from "../assets/setsu3.png";
 import setsu4 from "../assets/setsu4.png";
 import bg from "../assets/setsubg.png";
+import bg2 from "../assets/setsubg3.png";
 
 
 function Hero() {
@@ -11,12 +12,12 @@ function Hero() {
       <>
         <div className="relative p-12">
             {/*bg image*/}
-            <img className="absolute inset-0 w-full h-full object-cover brightness-50"
-            src={bg}
+            <img className="absolute top-24 right-20 h-3/4 object-cover"
+            src={bg2}
             alt="bg" 
             />
             {/*hero intro*/}
-            <div className="relative mx-auto w-max py-10 px-20 bg-slate-400 bg-opacity-70 rounded-lg">
+            <div className="relative ml-2 w-max py-10 px-14 bg-slate-300 rounded-lg">
                 <h1 className="font-bold text-5xl mb-3">Setsuna Yuki</h1>
                 <h2 className="text-lg">Member of Nijigasaki High Scool Idol Club <span className="italic">(Former Student Council President)</span></h2>
                 {/*images*/}
