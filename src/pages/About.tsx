@@ -1,3 +1,4 @@
+import IdolInfo from "../components/IdolInfo";
 import Navbar from "../components/Navbar";
 
 function About() {
@@ -8,7 +9,7 @@ function About() {
         </header>
 
         <main>
-            <h1>About Page</h1>
+            <IdolInfo />
         </main>
         </>
     );
