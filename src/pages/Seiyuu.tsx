@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import SeiyuuInfo from "../components/SeiyuuInfo";
 
 function Seiyuu() {
     return (
@@ -8,7 +9,7 @@ function Seiyuu() {
         </header>
 
         <main>
-            <h1>Seiyuu Page</h1>
+            <SeiyuuInfo />
         </main>
         </>
     );
